@@ -1,0 +1,362 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: sans-serif;
+    color:rgb(30, 30, 30);
+    background-image: url("white-triangle-pattern-seamless-background-1.jpg");
+    background-image: contain;
+}
+
+/* CHAT WITH ME */
+.chat{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    color:rgb(30, 30, 30);
+    font-size: 30px;
+    height:70px;
+    width:70px;
+    border-radius: 50%;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.331);
+    z-index:1;
+}
+
+.chat:hover{
+    background-color:#2185D5;
+    color:white;
+}
+
+/* NAVIGATION BAR */
+.navigation{
+    height:60px;
+    width:100%;
+}
+
+.navbar{
+    background-color:white;
+    height:60px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    position: fixed;
+    top:0px;
+    box-shadow: 0px 0.5px rgba(0, 0, 0, 0.107);
+    z-index: 2;
+}
+
+.logoname{
+    display:flex;
+    align-items: center;
+    height:60px;
+    width:60px;
+    margin-left:10px
+}
+
+.logo{
+    background-image: url("Romil_logo_black.png");
+    background-size: cover;
+    height: 50px;
+    width:50px;
+}
+
+.logo:hover{
+    background-image: url("Romil_logo_SkyBlue.png");
+}
+
+.navbutton{
+    position:absolute;
+    right:10px;
+}
+
+.navbutton a{
+    color:inherit;
+    text-decoration: none;
+    font-size:0.9rem;
+    padding:35px;
+    font-family: inherit;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+a:hover{
+    color:#2185D5;
+}
+
+/* SOCIALS DIV */
+.socials{
+    background-color: white;
+    height:400px;
+    width:60px;
+    position:fixed;
+    top:175px;
+    left:0px;
+    box-sizing: unset;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.187);
+    padding-top:30px;
+}
+
+/* SOCIAL BAR */
+
+.socialicons{
+    padding-left:10px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.socialicons a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.socialicons:hover{
+    color:#2185D5;
+}
+
+/* HERO-PART */
+.hero{
+    height:650px;
+    width:100%;
+    padding-top:150px;
+}
+
+.myinfo{
+    height:250px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding-left:300px;
+}
+
+.data{
+    height:200px;
+    width:400px;
+}
+
+.bigfont{
+    font-size: 3rem;
+    font-weight: 700;
+    color: inherit;
+}
+
+.smallfont{
+    color:rgb(125, 125, 125);
+    padding-top:10px;
+}
+
+.smallfont i{
+    color:rgb(255, 0, 0);
+}
+
+.myimage{
+    margin-left:50px;
+    height:250px;
+    width:250px;
+    background-image: url("Romil_image.jpg");
+    background-size: cover;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.429);
+    animation: borderAnimate 5s ease-in-out infinite;
+
+}
+
+/* Aimating the border of my image */
+@keyframes borderAnimate {
+    0% {
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%; /* Initial shape (square) */
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/ 50% 60% 30% 60%; /* Change shape to circle */
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%; /* Change shape to ellipse */
+    }
+}
+
+.softwares
+{
+    margin-top:35px;
+    margin-left:300px;
+    height:50px;
+    width:400px;
+    display:flex;
+    align-items: center;
+}
+
+.rborder{
+    padding-right:10px;
+    border-right: 2px solid rgb(30, 30, 30);;
+    color: inherit;
+    font-weight: 600;
+}
+
+.lpadding{
+    padding-left:30px
+}
+
+.softlogos{
+    margin-left:20px;
+}
+
+.htmllogo{
+    background-image: url("HTML5_logo.png");
+    background-size: cover;
+    height:2rem;
+    width: 2rem;
+}
+
+.csslogo{
+    background-image: url("CSS_LOGO_1.png");
+    background-size: cover;
+    height:1.85rem;
+    width: 1.85rem;
+}
+
+.jslogo{
+    background-image: url("JavaScript-logo.png");
+    background-size: cover;
+    height:2rem;
+    width: 2rem;
+}
+
+/* ABOUT ME */
+.aboutme{
+    height:600px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    /* margin-top:50px; */
+    padding-top:70px;
+}
+
+.aboutcontents{
+    height:350px;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    margin-left:250px;
+}
+
+.abouttext{
+    height:350px;
+    width:60%;
+}
+
+.aboutimagediv{
+    height:350px;
+    width:45%;
+    margin-top: 25px;
+    margin-right:60px;
+}
+
+.aboutimage{
+    background-image: url("PC_Workstation.png");
+    background-size: cover;
+    border-radius:50px;
+    height:300px;
+    width:95%;
+    
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.304);
+}
+
+.rotatingdiv{
+    height:100px;
+    width:100px;
+    position:relative;
+    bottom:50px;
+    left:230px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.329);
+    display: flex;
+    padding-top:3px;
+    justify-content: center;
+    animation: rotation 5s linear infinite;
+}
+
+.rotatingdiv p{
+    font-size:3.5rem;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* PROJECTS */
+.projects{
+    height:1000px;
+    width:100%;
+    /* background-color: yellow; */
+    display: flex;
+    margin-top:100px;
+    padding-top:100px;
+}
+
+.projectsdiv{
+    height:100%;
+    width:80%;
+    margin-left:250px;
+}
+
+.calculator{
+    height:400px;
+    width:1000px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.calculatortext{
+    height:100%;
+    width:30%;
+}
+
+.calculatorimagediv{
+    height:380px;
+    width:520px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left:50px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.288);
+    padding-top:10px;
+}
+
+.calculatorimage{
+    height:350px;
+    width:480px;
+    margin-left:15px;
+    background-image: url("Calculator.png");
+    background-size: contain;
+}
+
+.midfont{
+    color:#2185D5;
+    font-size: 1.25rem;
+    font-weight:800;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
