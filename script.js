@@ -22,3 +22,10 @@ projectLink.addEventListener('click', function (e) {
     scrollToAbout(projectSection); // Call the smooth scroll function
 });
 
+let contactSection = document.getElementById('contactarea');
+let contactLink = document.querySelector('.navbutton a[href="#contactarea"]');
+
+projectLink.addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent the default behavior of jumping to the target
+    scrollToAbout(contactSection); // Call the smooth scroll function
+});
