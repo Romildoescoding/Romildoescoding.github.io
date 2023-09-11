@@ -309,9 +309,8 @@ a:hover{
 
 /* PROJECTS */
 .projects{
-    height:1000px;
+    height:800px;
     width:100%;
-    /* background-color: yellow; */
     display: flex;
     margin-top:100px;
     padding-top:100px;
@@ -359,4 +358,66 @@ a:hover{
     font-weight:800;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* CONTACT ME */
+.contact{
+    height:700px;
+    width:100%;
+    display: flex;
+    margin-top:100px;
+    padding-top:100px;
+}
+
+.contactdiv{
+    height:100%;
+    width:60%;
+    margin-left:250px;
+    display:flex;
+}
+
+.contactbuttons{
+    height:100%;
+    width:50%;
+    text-align: center;
+}
+
+.contactbuttons button{
+    background-color:white;
+    /* color:white; */
+    height:70px;
+    width:200px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.164);
+    font-size: 1.25rem;
+    margin-top:50px;
+}
+
+.contactbuttons button:hover{
+    background-color:#2185D5;
+    color:white;
+}
+
+.contacttext{
+    height:100%;
+    width:40%;
+    margin-left: 50px;
+}
+
+/* COPYRIGHT */
+.copyright{
+    background-color: black;
+    color: white;
+    height:50px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyrightcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
