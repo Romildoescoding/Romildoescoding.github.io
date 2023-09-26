@@ -84,7 +84,7 @@ body{
     color:inherit;
     text-decoration: none;
     font-size:0.9rem;
-    padding:35px;
+    padding:25px;
     font-family: inherit;
     font-weight: 600;
     letter-spacing: 1px;
@@ -170,7 +170,7 @@ a:hover{
 
 }
 
-/* Aimating the border of my image */
+/* Animating the border of my image */
 @keyframes borderAnimate {
     0% {
         border-radius: 60% 40% 30% 70%/ 60% 30% 70% 40%; /* Initial shape (square) */
@@ -307,9 +307,39 @@ a:hover{
     }
 }
 
+.qualifications{
+    height:800px;
+    width:100vh;
+    /* display: flex; */
+    margin-top:100px;
+    margin-left:250px;
+    padding-top:100px;
+}
+
+.qualidiv{
+    width:80%;
+    margin-bottom: 50px;
+}
+
+.qualicontent{
+    width:60%;
+    height:165px;
+    margin-bottom:30px;
+}
+
+.leftdiv{
+    border-right: 5px solid rgb(30, 30, 30);
+}
+
+.rightdiv{
+    padding-left: 20px;
+    border-left: 5px solid rgb(30, 30, 30);
+    margin-left:59.25%;
+}
+
 /* PROJECTS */
 .projects{
-    height:800px;
+    height:1100px;
     width:100%;
     display: flex;
     margin-top:100px;
@@ -332,6 +362,7 @@ a:hover{
 .calculatortext{
     height:100%;
     width:30%;
+    margin-right:50px;
 }
 
 .calculatorimagediv{
@@ -339,7 +370,7 @@ a:hover{
     width:520px;
     background-color: white;
     border-radius: 50px;
-    margin-left:50px;
+    /* margin-left:50px; */
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.288);
     padding-top:10px;
 }
@@ -349,6 +380,15 @@ a:hover{
     width:480px;
     margin-left:15px;
     background-image: url("Calculator.png");
+    background-size: contain;
+}
+
+.taxcalculatorimage{
+    height:350px;
+    width:450px;
+    margin-left:30px;
+    margin-top: 10px;
+    background-image: url("Tax_Calculator.png");
     background-size: contain;
 }
 
