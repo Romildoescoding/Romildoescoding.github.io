@@ -339,7 +339,7 @@ a:hover{
 
 /* PROJECTS */
 .projects{
-    height:1100px;
+    height:2000px;
     width:100%;
     display: flex;
     margin-top:100px;
@@ -390,6 +390,25 @@ a:hover{
     margin-top: 10px;
     background-image: url("Tax_Calculator.png");
     background-size: contain;
+}
+
+.invoiceimage{
+    height:200px;
+    width:450px;
+    margin-left:30px;
+    margin-top: 100px;
+    background-image: url("Invoice.png");
+    background-size: contain;
+}
+
+.yellowpageimage{
+    height:270px;
+    width:500px;
+    margin-left:10px;
+    margin-top: 50px;
+    background-image: url("YellowPage.png");
+    background-size: contain;
+    border-radius: 10px;
 }
 
 .midfont{
@@ -456,8 +475,7 @@ a:hover{
     justify-content: center;
 }
 
-.copyrightcontent{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pretag{
+    font-family: inherit;
+    font-size: 1.5rem;
 }
